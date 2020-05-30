@@ -134,9 +134,9 @@ border-bottom-left-radius: 40%;
 	margin-top: 50px;
 }
 #port{
-	height:48%;
+	height:40%;
 	width:10%;
-	border:2px solid blue;
+	/*border:2px solid blue;*/
 	margin:10px;
 	margin-left: 10px;
 	display:flex;
@@ -149,11 +149,224 @@ border-bottom-left-radius: 40%;
 }
 #display_port{
 	margin-top: 50px;
-	height:800px;
+	height:700px;
 	width:100%;
 	display:flex;
 	flex-direction:row;
-	border:2px solid green;
+	/*border:2px solid green;*/
 	flex-wrap: wrap;
     justify-content:space-around;
+}
+/*work_experience*/
+#work_experience{
+	margin-top: 100px;
+}
+.work_exp{
+	margin-top: 50px;
+	height:400px;
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	/*border:2px solid green;*/
+	/*flex-wrap: wrap;
+    /*justify-content:space-between;
+*/
+}
+.work{
+	height:54rem;
+	width:30%;
+	/*border:2px solid blue;*/
+	margin:20px;
+	position:relative;
+	display:flex;
+	justify-content: space-around;
+	margin-left: 5%;
+	padding-right:5%;
+	flex-wrap: wrap;
+
+
+}
+.work:nth-child(2n){
+	/*background-color: cyan;*/
+	left:58%;
+}
+#content{
+	width:100%;
+}
+#content p{
+	text-align:right;
+	color:darkslategrey;
+	padding-left:20%;
+	font-size:20px;
+}
+#heading span{
+
+	position:relative;
+	right:-130px;
+	font-size: 30px;
+	color:orangered;
+}
+#heading span::before{
+	content:"";
+	display:block;
+	height:40px;
+	width:40px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:absolute;
+	left:-40px;
+	border-radius: 50%;
+	background-image:url(https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/apple-touch-icon-144x144.png);
+
+}
+.work:nth-child(2n+1)::after{
+	content:'';
+	height:20px;
+	width:20px;
+	background-color:darkslategrey;
+border-radius: 50%;
+position: absolute;
+right:-9rem;
+top:3.5rem;
+z-index: 1;
+}
+.work:nth-child(2n)::after{
+	content:'';
+	height:20px;
+	width:20px;
+	background-color:darkslategrey;
+    border-radius: 50%;
+    position: absolute;
+    left:-11.5rem;
+    z-index: 1;
+}
+
+
+/*time-liner*/
+#time{
+	width:0px;
+	height:780px;
+	border:2px dashed darkslategrey;
+	margin-top: 199px;
+	position:absolute;
+}
+#traveller i{
+	color:blue;
+	transform: rotate(90deg);
+	font-size: 40px;
+	position: relative;
+	left:-21px;
+	z-index: 2;
+}
+#traveller{
+	position:sticky;
+	top:85%;
+	z-index: 2;
+}
+/*education*/
+#education{
+	margin-top:50rem;
+}
+/*#contact{
+	margin-top: 50rem;
+	background-image:linear-gradient(#403066,#2857a4);
+}
+label{
+	color:white;
+	font-size:20px;
+	text-transform: capitalize;
+}
+.contact_info{
+	display:flex;
+	flex-direction:column;
+
+}
+#address h1{
+	color:white;
+}
+#address_info p{
+	font-size: 20px;
+	color:white;
+
+}
+#cont_div{
+	width:100%;
+	height:85%;
+	border:2px solid black;
+	display:flex;
+}*/
+#contact{
+	margin-top: 50rem;
+}
+.main_box{
+	margin-top: 4rem;
+	width:100%;
+	height:58vh;
+	/*border:2px solid blue;*/
+	display:flex;
+	justify-content: space-around;}
+.small_box{
+	height:100%;
+	width:40%;
+	/*border:2px solid green;*/
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-wrap:break-word;
+
+}
+#address h1{
+	font-weight: bold;
+	font-size: 2rem;
+color:white;}
+#address p{
+	margin-top: -13px;
+	font-size:1rem;
+	text-align: justify;
+	padding-left: 10%;
+	overflow-wrap: wrap;
+	color:white;
+}
+#contact{
+	background-image:linear-gradient(blue,violet);
+}
+.small_box label{
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-transform: capitalize;
+	color:white;
+	margin-left: 15px;
+	text-align: left;
+	font-size: 1rem;
+}
+#forms form{
+	margin-left: -5rem:;
+}
+.small_box textarea,input{
+	padding-left: 19rem;
+	max-width: 90%;
+	background:transparent;
+	border:0px solid transparent;
+	border-bottom:2px solid white;
+}
+
+button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+button:hover {
+    background: white;
+    color: #13386fe0;
 }
