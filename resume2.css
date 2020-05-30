@@ -1,0 +1,56 @@
+	body{
+			margin:0px;
+		}
+		/*header*/
+		#header1{
+	height:65vh;
+	background-image: url(https://c.pxhere.com/photos/02/48/home_office_workstation_office_business_notebook_macbook_air_portable_device_computer-971631.jpg!d);
+	font-size: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: -80px;
+	box-shadow: 0px 0px 16px 4px black;
+}
+/*nav-bar*/
+#nav-bar li{
+	display:inline-block;
+	margin:auto;
+}
+#nav-bar a{
+	font-size: 20px;
+	color:white;
+	text-transform: capitalize;
+	text-decoration: none;
+	transition:underline 2s;
+}
+#nav-bar ul{
+	text-align: center;
+}
+#nav-bar a:hover{
+	text-decoration: underline;
+	color:lightgrey;
+
+}
+
+/*name*/
+#name h1{
+	text-align:center;
+	font-size: 60px;
+	color:white;
+	text-transform: capitalize;
+	text-shadow: -8px 2px black;
+}
+/* social-icons*/
+.icons li{
+	padding:10px;
+}
+.icons i{
+	font-size:30px;
+	border-radius:50%;
+	    text-shadow: -4px 0px black;
+}
+.icons i:hover{
+	color:grey;
+	box-shadow: 0px 0px 16px 4px black;
+}
