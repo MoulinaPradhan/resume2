@@ -329,6 +329,7 @@ color:white;}
 }
 #contact{
 	background-image:linear-gradient(blue,violet);
+	height:100%;
 }
 .small_box label{
 	display:flex;
@@ -369,4 +370,23 @@ button[type="submit"] {
 button:hover {
     background: white;
     color: #13386fe0;
+}
+/*media*/
+@media screen and (max-width:900px){
+ #time{
+	width:0px;
+	height:160%;
+	border:2px dashed darkslategrey;
+	margin-top: 199px;
+	position:absolute;
+	left:3%;
+}
+.work{
+	left:5% !important;
+	width:80%;
+}
+#contact{
+	margin-top:58rem;
+	height:auto;
+}
 }
